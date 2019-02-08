@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterviewCake
+namespace InterviewCake.Tests.hashing_and_hashtables
 {
-    public class Class1
+    public class DuplicateFilesTest
     {
+
     }
 }

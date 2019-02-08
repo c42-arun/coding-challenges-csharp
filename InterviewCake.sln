@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewCake", "InterviewCake\InterviewCake.csproj", "{038D7A6C-6066-4C7C-A957-44A91C0AA3C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewCake.Tests", "InterviewCake.Tests\InterviewCake.Tests.csproj", "{B047C317-A228-4450-9671-8EC837F16613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewCake.Console", "InterviewCake.Console\InterviewCake.Console.csproj", "{6C4646E1-909F-4574-A67B-03E0A0FD9674}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{038D7A6C-6066-4C7C-A957-44A91C0AA3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{038D7A6C-6066-4C7C-A957-44A91C0AA3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{038D7A6C-6066-4C7C-A957-44A91C0AA3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B047C317-A228-4450-9671-8EC837F16613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B047C317-A228-4450-9671-8EC837F16613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B047C317-A228-4450-9671-8EC837F16613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B047C317-A228-4450-9671-8EC837F16613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4646E1-909F-4574-A67B-03E0A0FD9674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4646E1-909F-4574-A67B-03E0A0FD9674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4646E1-909F-4574-A67B-03E0A0FD9674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4646E1-909F-4574-A67B-03E0A0FD9674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

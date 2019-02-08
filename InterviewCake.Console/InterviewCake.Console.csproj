@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{038D7A6C-6066-4C7C-A957-44A91C0AA3C9}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InterviewCake</RootNamespace>
-    <AssemblyName>InterviewCake</AssemblyName>
+    <ProjectGuid>{6C4646E1-909F-4574-A67B-03E0A0FD9674}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>InterviewCake.Console</RootNamespace>
+    <AssemblyName>InterviewCake.Console</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,16 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dynamic_prog-and-recursion\Fibonacci.cs" />
-    <Compile Include="hashing-and-hashtables\DuplicateFilesIterative.cs" />
-    <Compile Include="hashing-and-hashtables\DuplicateFilesRecursive.cs" />
-    <Compile Include="hashing-and-hashtables\TopScores.cs" />
-    <Compile Include="hashing-and-hashtables\WordCloudData.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="hashing-and-hashtables\DuplicateFiles.md" />
-    <None Include="hashing-and-hashtables\TopScores.md" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InterviewCake\InterviewCake.csproj">
+      <Project>{038d7a6c-6066-4c7c-a957-44a91c0aa3c9}</Project>
+      <Name>InterviewCake</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
