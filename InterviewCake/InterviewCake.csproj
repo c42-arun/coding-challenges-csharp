@@ -42,15 +42,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="dynamic_prog-and-recursion\Fibonacci.cs" />
-    <Compile Include="hashing-and-hashtables\DuplicateFilesIterative.cs" />
-    <Compile Include="hashing-and-hashtables\DuplicateFilesRecursive.cs" />
-    <Compile Include="hashing-and-hashtables\TopScores.cs" />
-    <Compile Include="hashing-and-hashtables\WordCloudData.cs" />
+    <Compile Include="greedy-algorithms\InPlaceShuffle.cs" />
+    <Compile Include="greedy-algorithms\SingleRiffle.cs" />
+    <Compile Include="hashing-and-hashtables\duplicate-files\DuplicateFilesIterative.cs" />
+    <Compile Include="hashing-and-hashtables\duplicate-files\DuplicateFilesRecursive.cs" />
+    <Compile Include="hashing-and-hashtables\top-scores\TopScores.cs" />
+    <Compile Include="hashing-and-hashtables\word-cloud\WordCloudData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="hashing-and-hashtables\DuplicateFiles.md" />
-    <None Include="hashing-and-hashtables\TopScores.md" />
+    <None Include="hashing-and-hashtables\duplicate-files\DuplicateFiles.md" />
+    <None Include="hashing-and-hashtables\top-scores\TopScores.md" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -29,6 +29,7 @@ namespace InterviewCake.hashing_and_hashtables
                 if (currentDirInfo != null) 
                 {
                     // push all its contents into the stack for processing 
+                    // this includes both 'DirectoryInfo' & 'FileInfo' objects
                     foreach (var info in currentDirInfo.GetFileSystemInfos())
                     {
                         stack.Push(info);
