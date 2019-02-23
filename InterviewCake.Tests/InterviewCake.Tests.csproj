@@ -58,6 +58,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="binary-search-algorithm\RotationPointTests.cs" />
+    <Compile Include="binary-trees\SuperBalancedTests.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="greedy-algorithms\SingleRiffleTests.cs" />
     <Compile Include="hashing-and-hashtables\DuplicateFilesTest.cs" />
