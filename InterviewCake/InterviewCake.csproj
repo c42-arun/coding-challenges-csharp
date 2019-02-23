@@ -58,6 +58,8 @@
     <Compile Include="sorting-searching-logs\binary-search-algorithm\BinarySearch.cs" />
     <Compile Include="sorting-searching-logs\RotationPoint.cs" />
     <Compile Include="sorting-searching-logs\RotationPointSolution.cs" />
+    <Compile Include="sorting\FindRepeatSpaceEdition.cs" />
+    <Compile Include="sorting\TopScores.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="hashing-and-hashtables\duplicate-files\DuplicateFiles.md" />
