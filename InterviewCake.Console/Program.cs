@@ -1,6 +1,7 @@
 ﻿using System;
 using InterviewCake.binary_trees;
 using InterviewCake.binary_trees.traversal_algorithms.depth_first_using_recursion;
+using InterviewCake.binary_trees.traversal_algorithms.depth_first_using_stack_iterative;
 using InterviewCake.hashing_and_hashtables;
 using InterviewCake.sorting_searching_logs.binary_search_algorithm;
 
@@ -35,14 +36,17 @@ namespace InterviewCake
         {
             var rootNode = BuildTree();
 
-            Console.WriteLine("\nPre Order:");
-            PreOrderTraversal.ProcessNode(rootNode);
+            Console.WriteLine("\nPre Order (Recursive):");
+            PreOrderRecursiveTraversal.ProcessNode(rootNode);
+
+            Console.WriteLine("\nPre Order (Iterative):");
+            PreOrderStackTraversal.Traverse(rootNode);
 
             Console.WriteLine("\nIn Order:");
-            InOrderTraversal.ProcessNode(rootNode);
+            InOrderRecursiveTraversal.ProcessNode(rootNode);
 
             Console.WriteLine("\nPost Order:");
-            PostOrderTraversal.ProcessNode(rootNode);
+            PostOrderRecursiveTraversal.ProcessNode(rootNode);
         }
 
         private static BinaryTreeNode BuildTree()

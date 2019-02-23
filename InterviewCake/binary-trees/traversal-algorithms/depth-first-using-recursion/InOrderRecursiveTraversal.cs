@@ -2,7 +2,7 @@
 
 namespace InterviewCake.binary_trees.traversal_algorithms.depth_first_using_recursion
 {
-    public static class InOrderTraversal
+    public static class InOrderRecursiveTraversal
     {
         public static void ProcessNode(BinaryTreeNode n)
         {
