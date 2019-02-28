@@ -54,6 +54,7 @@
     <Compile Include="hashing-and-hashtables\duplicate-files\DuplicateFilesRecursive.cs" />
     <Compile Include="hashing-and-hashtables\top-scores\TopScores.cs" />
     <Compile Include="hashing-and-hashtables\word-cloud\WordCloudData.cs" />
+    <Compile Include="matching-parenthesis\MatchingParenthesis.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sorting-searching-logs\binary-search-algorithm\BinarySearch.cs" />
     <Compile Include="sorting-searching-logs\RotationPoint.cs" />
@@ -62,6 +63,7 @@
   <ItemGroup>
     <None Include="hashing-and-hashtables\duplicate-files\DuplicateFiles.md" />
     <None Include="hashing-and-hashtables\top-scores\TopScores.md" />
+    <None Include="matching-parenthesis\problem.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
