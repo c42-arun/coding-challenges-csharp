@@ -42,11 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="binary-trees\SuperBalanced.cs" />
-    <Compile Include="binary-trees\traversal-algorithms\depth-first-using-recursion\PostOrderTraversal.cs" />
-    <Compile Include="binary-trees\traversal-algorithms\depth-first-using-recursion\InOrderTraversal.cs" />
-    <Compile Include="binary-trees\traversal-algorithms\depth-first-using-recursion\PreOrderTraversal.cs" />
+    <Compile Include="binary-trees\traversal-algorithms\depth-first-using-recursion\PostOrderRecursiveTraversal.cs" />
+    <Compile Include="binary-trees\traversal-algorithms\depth-first-using-recursion\InOrderRecursiveTraversal.cs" />
+    <Compile Include="binary-trees\traversal-algorithms\depth-first-using-recursion\PreOrderRecursiveTraversal.cs" />
     <Compile Include="binary-trees\BinaryTreeNode.cs" />
-    <Compile Include="binary-trees\traversal-algorithms\depth-first-using-stack-iterative\PreOrderTraversal.cs" />
+    <Compile Include="binary-trees\traversal-algorithms\depth-first-using-stack-iterative\InOrderStackTraversal.cs" />
+    <Compile Include="binary-trees\traversal-algorithms\depth-first-using-stack-iterative\PreOrderStackTraversal.cs" />
     <Compile Include="dynamic_prog-and-recursion\Fibonacci.cs" />
     <Compile Include="greedy-algorithms\InPlaceShuffle.cs" />
     <Compile Include="greedy-algorithms\SingleRiffle.cs" />
@@ -59,6 +60,8 @@
     <Compile Include="sorting-searching-logs\binary-search-algorithm\BinarySearch.cs" />
     <Compile Include="sorting-searching-logs\RotationPoint.cs" />
     <Compile Include="sorting-searching-logs\RotationPointSolution.cs" />
+    <Compile Include="sorting\FindRepeatSpaceEdition.cs" />
+    <Compile Include="sorting\TopScores.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="hashing-and-hashtables\duplicate-files\DuplicateFiles.md" />

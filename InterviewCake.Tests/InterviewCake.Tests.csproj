@@ -67,6 +67,8 @@
     <Compile Include="hashing-and-hashtables\WordCloudDataTests.cs" />
     <Compile Include="matching-parenthesis\MatchingParenthesisTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sorting\FindRepeatTests.cs" />
+    <Compile Include="sorting\TopScoresTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
