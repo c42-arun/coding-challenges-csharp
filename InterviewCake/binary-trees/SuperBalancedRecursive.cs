@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterviewCake.binary_trees
 {
-    public static class SuperBalanced
+    public static class SuperBalancedRecursive
     {
         static int _min;
         static int _max;

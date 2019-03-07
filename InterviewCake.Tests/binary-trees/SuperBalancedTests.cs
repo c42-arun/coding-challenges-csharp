@@ -15,7 +15,7 @@ namespace InterviewCake.Tests.binary_trees
             a.InsertRight(2);
             b.InsertLeft(3);
             b.InsertRight(4);
-            var result = SuperBalanced.IsBalanced(root);
+            var result = SuperBalancedRecursive.IsBalanced(root);
             Assert.True(result);
         }
 
@@ -25,7 +25,7 @@ namespace InterviewCake.Tests.binary_trees
             var root = new BinaryTreeNode(3);
             root.InsertLeft(4).InsertLeft(1);
             root.InsertRight(2).InsertRight(9);
-            var result = SuperBalanced.IsBalanced(root);
+            var result = SuperBalancedRecursive.IsBalanced(root);
             Assert.True(result);
         }
 
@@ -35,7 +35,7 @@ namespace InterviewCake.Tests.binary_trees
             var root = new BinaryTreeNode(6);
             root.InsertLeft(1);
             root.InsertRight(0).InsertRight(7);
-            var result = SuperBalanced.IsBalanced(root);
+            var result = SuperBalancedRecursive.IsBalanced(root);
             Assert.True(result);
         }
 
@@ -45,7 +45,7 @@ namespace InterviewCake.Tests.binary_trees
             var root = new BinaryTreeNode(6);
             root.InsertLeft(1);
             root.InsertRight(0).InsertRight(7).InsertRight(8);
-            var result = SuperBalanced.IsBalanced(root);
+            var result = SuperBalancedRecursive.IsBalanced(root);
             Assert.False(result);
         }
 
@@ -57,7 +57,7 @@ namespace InterviewCake.Tests.binary_trees
             var b = root.InsertRight(9);
             b.InsertLeft(8).InsertLeft(7);
             b.InsertRight(5);
-            var result = SuperBalanced.IsBalanced(root);
+            var result = SuperBalancedRecursive.IsBalanced(root);
             Assert.False(result);
         }
 
@@ -65,7 +65,7 @@ namespace InterviewCake.Tests.binary_trees
         public void OnlyOneNodeTest()
         {
             var root = new BinaryTreeNode(1);
-            var result = SuperBalanced.IsBalanced(root);
+            var result = SuperBalancedRecursive.IsBalanced(root);
             Assert.True(result);
         }
 
@@ -74,7 +74,7 @@ namespace InterviewCake.Tests.binary_trees
         {
             var root = new BinaryTreeNode(1);
             root.InsertRight(2).InsertRight(3).InsertRight(4);
-            var result = SuperBalanced.IsBalanced(root);
+            var result = SuperBalancedRecursive.IsBalanced(root);
             Assert.True(result);
         }
     }

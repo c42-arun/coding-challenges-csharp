@@ -4,6 +4,7 @@ using InterviewCake.binary_trees.traversal_algorithms.depth_first_using_recursio
 using InterviewCake.binary_trees.traversal_algorithms.depth_first_using_stack_iterative;
 using InterviewCake.hashing_and_hashtables;
 using InterviewCake.sorting_searching_logs.binary_search_algorithm;
+using InterviewCake.sorting_searching_logs.merge_sort_algorithm;
 
 namespace InterviewCake
 {
@@ -14,9 +15,17 @@ namespace InterviewCake
             //DuplicateFilesTest();
             //BinarySearchTest();
 
-            BinaryTreeTraverse();
+            //BinaryTreeTraverse();
+            MergeSort();
 
             Console.ReadLine();
+        }
+
+        static void MergeSort()
+        {
+            int[] items = new []{ 3, 5, 7, 2, 1};
+
+            var sorted = MergeSortRecursive.MergeSort(items);
         }
 
         static void DuplicateFilesTest()
