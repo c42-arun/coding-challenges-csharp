@@ -16,16 +16,24 @@ namespace InterviewCake
             //BinarySearchTest();
 
             //BinaryTreeTraverse();
-            MergeSort();
+            //MergeSortRecursive();
+            MergeSortIterative();
 
             Console.ReadLine();
         }
 
-        static void MergeSort()
+        static void MergeSortRecursive()
         {
             int[] items = new []{ 3, 5, 7, 2, 1};
 
-            var sorted = MergeSortRecursive.MergeSort(items);
+            var sorted = sorting_searching_logs.merge_sort_algorithm.MergeSortRecursive.MergeSort(items);
+        }
+
+        static void MergeSortIterative()
+        {
+            int[] items = new[] { 3, 5, 7, 2, 1};
+
+            var sorted = sorting_searching_logs.merge_sort_algorithm.MergeSortIterative.MergeSort(items);
         }
 
         static void DuplicateFilesTest()

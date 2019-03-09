@@ -59,6 +59,7 @@
     <Compile Include="matching-parenthesis\MatchingParenthesis.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sorting-searching-logs\binary-search-algorithm\BinarySearch.cs" />
+    <Compile Include="sorting-searching-logs\merge-sort-algorithm\MergeSortIterative.cs" />
     <Compile Include="sorting-searching-logs\merge-sort-algorithm\MergeSortRecursive.cs" />
     <Compile Include="sorting-searching-logs\RotationPoint.cs" />
     <Compile Include="sorting-searching-logs\RotationPointSolution.cs" />
