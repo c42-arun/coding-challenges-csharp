@@ -34,37 +34,8 @@ namespace InterviewCake.sorting_searching_logs.merge_sort_algorithm
                     // handle two lists at a time at indices "i" & "i-1" and merge them
                     List<int> left = subLists[i - 1];
                     List<int> right = subLists[i];
-                    List<int> merged = new List<int>(left.Count + right.Count);
 
-                    // Two way merge
-                    int leftIndex = 0;
-                    int rightIndex = 0;
-
-                    while (leftIndex < left.Count && rightIndex < right.Count)
-                    {
-                        if (left[leftIndex] <= right[rightIndex])
-                        {
-                            merged.Add(left[leftIndex]);
-                            leftIndex++;
-                        }
-                        else
-                        {
-                            merged.Add(right[rightIndex]);
-                            rightIndex++;
-                        }
-                    }
-
-                    while (leftIndex < left.Count)
-                    {
-                        merged.Add(left[leftIndex]);
-                        leftIndex++;
-                    }
-
-                    while (rightIndex < right.Count)
-                    {
-                        merged.Add(right[rightIndex]);
-                        rightIndex++;
-                    }
+                    List<int> merged = Perform2WayMerge(left, right);
 
                     combinedPairs.Add(merged);
                 }
@@ -78,6 +49,43 @@ namespace InterviewCake.sorting_searching_logs.merge_sort_algorithm
             } while (subLists.Count() != 1);
 
             return subLists[0].ToArray();
+        }
+
+        private static List<int> Perform2WayMerge(List<int> left, List<int> right)
+        {
+            List<int> merged = new List<int>(left.Count + right.Count);
+
+            // Two way merge
+            int leftIndex = 0;
+            int rightIndex = 0;
+
+            while (leftIndex < left.Count && rightIndex < right.Count)
+            {
+                if (left[leftIndex] <= right[rightIndex])
+                {
+                    merged.Add(left[leftIndex]);
+                    leftIndex++;
+                }
+                else
+                {
+                    merged.Add(right[rightIndex]);
+                    rightIndex++;
+                }
+            }
+
+            while (leftIndex < left.Count)
+            {
+                merged.Add(left[leftIndex]);
+                leftIndex++;
+            }
+
+            while (rightIndex < right.Count)
+            {
+                merged.Add(right[rightIndex]);
+                rightIndex++;
+            }
+
+            return merged;
         }
     }
 }
