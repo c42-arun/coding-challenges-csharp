@@ -49,6 +49,7 @@
     <Compile Include="binary-trees\BinaryTreeNode.cs" />
     <Compile Include="binary-trees\traversal-algorithms\depth-first-using-stack-iterative\InOrderStackTraversal.cs" />
     <Compile Include="binary-trees\traversal-algorithms\depth-first-using-stack-iterative\PreOrderStackTraversal.cs" />
+    <Compile Include="binary-trees\ValidateBinaryTree.cs" />
     <Compile Include="dynamic_prog-and-recursion\Fibonacci.cs" />
     <Compile Include="greedy-algorithms\InPlaceShuffle.cs" />
     <Compile Include="greedy-algorithms\SingleRiffle.cs" />
