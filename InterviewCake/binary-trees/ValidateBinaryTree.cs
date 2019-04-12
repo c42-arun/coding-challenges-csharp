@@ -8,10 +8,10 @@ namespace InterviewCake.binary_trees
 {
     public class ValidateBinaryTree
     {
-        public static bool IsBinarySearchTree(BinaryTreeNode root)
-        {
-            return CheckNode(root, double.NegativeInfinity, double.NegativeInfinity);
-        }
+        //public static bool IsBinarySearchTree(BinaryTreeNode root)
+        //{
+        //    return CheckNode(root, double.NegativeInfinity, double.NegativeInfinity);
+        //}
 
         //private static bool CheckNode(BinaryTreeNode node, double lowerBound, double upperBound)
         //{

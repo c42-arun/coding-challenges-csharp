@@ -65,6 +65,7 @@
     <Compile Include="hashing-and-hashtables\DuplicateFilesTest.cs" />
     <Compile Include="hashing-and-hashtables\TopScoresTest.cs" />
     <Compile Include="hashing-and-hashtables\WordCloudDataTests.cs" />
+    <Compile Include="linked-lists\DeleteNodeTests.cs" />
     <Compile Include="matching-parenthesis\MatchingParenthesisTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sorting\FindRepeatTests.cs" />
