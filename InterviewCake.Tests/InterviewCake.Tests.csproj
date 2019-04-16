@@ -67,6 +67,8 @@
     <Compile Include="hashing-and-hashtables\WordCloudDataTests.cs" />
     <Compile Include="linked-lists\DeleteNodeTests.cs" />
     <Compile Include="linked-lists\DetectCycleTests.cs" />
+    <Compile Include="linked-lists\OutOfPlaceReverseTests.cs" />
+    <Compile Include="linked-lists\InSituReverseTests.cs" />
     <Compile Include="matching-parenthesis\MatchingParenthesisTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sorting\FindRepeatTests.cs" />
