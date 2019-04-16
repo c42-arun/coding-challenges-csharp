@@ -60,6 +60,7 @@
     <Compile Include="linked-lists\LinkedListNode.cs" />
     <Compile Include="linked-lists\singly-linked\DeleteNode.cs" />
     <Compile Include="linked-lists\singly-linked\DetectCycle.cs" />
+    <Compile Include="linked-lists\singly-linked\KthToLastNode.cs" />
     <Compile Include="linked-lists\singly-linked\ReverseList.cs" />
     <Compile Include="matching-parenthesis\MatchingParenthesis.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
